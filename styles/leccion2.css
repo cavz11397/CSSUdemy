@@ -18,6 +18,89 @@ h1{
     background-color: blueviolet;
 }
 
-.rojo, .rosa,.violeta{
+.verde{
+    background-color: lime;
+}
+
+.azul{
+    background-color: turquoise;
+}
+
+.rojo, .rosa, .violeta{
     color: white;
+}
+
+/* Bordes con CSS */
+
+.rojoBorde{
+    border: 4px solid firebrick;
+}
+
+.rosaBorde{
+    border: 4px dashed rgb(255, 105, 180);
+}
+
+.amarilloBorde{
+    border: 4px double #ffd700;
+}
+
+.azulBorde{
+    border: 4px dotted hsl(174, 72%, 56%);
+}
+
+.punteado{
+    border-style: dotted;
+    border-width: 10px 5px 3px 2px;
+    border-color: crimson hotpink gold lime;
+}
+
+.discontinuo{
+    border-style: dashed;
+    border-width: thick; /* thin, medium, thick */
+    border-color: hsl(203, 39%, 44%,0.5); /*La transparecncia es el ultimo digito en hsl y rgb, en hexa se agregan dos ultimos*/
+}
+
+.solido{
+    border: solid;
+    /*Cuando solo se tienen 3 valores se aplican asi: up , sides, down*/
+    border-width: 10px 5px 2px;
+    border-radius: 15px;
+}
+.doble{
+    border: 4px double;
+    /*Cuando se aplican dos es: up y down , sides*/
+    border-width: 10px 5px;
+}
+
+.surco{
+    border: 10px groove;
+}
+
+.cresta{
+    border: 10px ridge;
+}
+
+.recuadro{
+    border: 10px inset;
+}
+
+.inverso{
+    border: 10px outset;
+}
+
+.sinborde{
+    border: null;
+}
+
+.oculto{
+    border: hidden;
+}
+
+.mixto{
+    border-style: dotted solid dashed double;
+}
+
+.redondeado{
+    border: 5px solid blueviolet;
+    border-radius: 20px 0px 10px 0px;
 }
