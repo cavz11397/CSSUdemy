@@ -1,0 +1,36 @@
+/*
+Selector universal *
+*/
+*{
+    background-color: ghostwhite;
+    color: green;
+}
+
+/* h1{
+    color: aqua !important;
+} */
+
+/* # este es para crear id */
+#titulo{
+    color: crimson;
+    text-align: center;
+}
+
+/* . este es para crear una clase */
+/* .centrar{
+    text-align: center;
+} */
+.texto-grande{
+    font-size: 20px;
+}
+
+/* Se utiliza la coma para agrupar varios selectores */
+h1, h2, p {
+    color: rebeccapurple;
+    text-align: center;
+}
+
+/* Solo se aplican a los parrafos con la clase de centrar */
+p.rigth{
+    text-align: right;
+}
